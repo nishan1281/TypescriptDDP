@@ -25,7 +25,7 @@
     // "moduleDetection": "auto",                        /* Control what method is used to detect module-format JS files. */
 
     /* Modules */
-    "module": "commonjs",                                /* Specify what module code is generated. */
+    "module": "amd",                                /* Specify what module code is generated. */
     // "rootDir": "./",                                  /* Specify the root folder within your source files. */
     // "moduleResolution": "node10",                     /* Specify how TypeScript looks up a file from a given module specifier. */
     // "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
@@ -110,7 +110,8 @@
     "noUnusedLocals": true,                /* Report errors on unused locals. */
     "noUnusedParameters": true,            /* Report errors on unused parameters. */
     "noImplicitReturns": true,             /* Report error when not all code paths in function return a value. */
-    "strict": true,                                      /* Enable all strict type-checking options. */
+    "strict": true,
+    "outFile": "./dist/bundle.js",                       /* Concatenate and emit output to single file. *//* Enable all strict type-checking options. */
 
 
     /* Completeness */
